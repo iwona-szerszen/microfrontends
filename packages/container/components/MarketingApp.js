@@ -3,7 +3,6 @@ import { mount } from 'marketing/MarketingApp';
 
 export default () => {
   const ref = useRef(null);
-  console.log('Here is the Marketing app!')
 
   useEffect(() => {
     mount(ref.current);
